@@ -104,11 +104,19 @@ textarea {
     position: relative;
 }
 
-.navbar-brand > li > a {
-    font-size: 14px;
-    font-weight: 600;
-    color: #FFF;
-    
+.navbar-brand {
+    display: block;
+    width: 120px;
+    height: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 8px;
+    margin-left: 10px;
+    overflow: hidden;
+
+    line-height: 600px;
+    color: #333;
+    background: url(../img/logo.png) no-repeat 0 0;
 }
 
 .navbar .navbar-brand {
@@ -247,11 +255,11 @@ textarea {
 }
 
 #extra .inner { 
+    color: #fff;
     
+    background-color: #222;
     
-    background-color: #eee;
-    
-    border-top: 0px;
+    border-top: 1px solid #555;
 }
 
 .vcard-stat {
@@ -354,14 +362,16 @@ textarea {
  
 
 
-
+#footer {
+    border-top: 1px solid #000;
+}
 
 #footer .inner {
     padding: 20px 0;
 
     color: #fff;
     
-    background-color: #2d2c2b;
+    background-color: #111;
 
     border-top: 1px solid #222;
 }

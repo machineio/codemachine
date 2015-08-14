@@ -44,7 +44,6 @@
 
     .navbar .container .navbar-brand {
         margin-left: 0;
-        
     }
 }
 
@@ -192,7 +191,8 @@
     */
     
     #extra {
-        
+        margin-right: -20px;
+        margin-left: -20px;
     }
     
     #extra [class*="span"] {
